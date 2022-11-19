@@ -1,5 +1,51 @@
+# 网站名称
 site_name: Mr.L's Notes
+
+# 界面主题
 theme:
+
+  # 主题名字
   name: material
+
+  custom_dir: overrides
+
+  # 调色盘
+  palette:
+  
+    # Palette toggle for light mode 日间模式按钮
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode 夜间模式按钮
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+      # 用于标题、侧边栏、文本链接和其他几个组件。
+      primary: cyan 
+
+      # 强调色，例如悬停的链接、按钮和滚动条。
+      accent: deep purple 
+
+# 生成 GitHub 仓库卡片
+repo_url: https://github.com/1024MrL/mkdocs
+
+# 仓库名称
+repo_name: 1024MrL/mkdocs
+
+# 设置页脚
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/1024MrL/
+
+# 版权声明
+copyright: Copyright &copy; 2002 - 2022 Mr.L
+
 
 
