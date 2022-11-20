@@ -1,4 +1,5 @@
 site_name: Mr.L's Notes
+site_url: https://blog.mrl1024.xyz/
 
 theme:
   name: material
