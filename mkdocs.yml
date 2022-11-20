@@ -3,7 +3,6 @@ site_name: Mr.L's Notes
 theme:
   name: material
 
-<<<<<<< HEAD
   custom_dir: overrides
 
   # 调色盘
@@ -43,8 +42,6 @@ extra:
 
 # 版权声明显示
 copyright: Copyright &copy; 2002 - 2022 Mr.L
-=======
->>>>>>> 030e0291983981ec674d9732cb89ea388cebd8a4
 
 
 
